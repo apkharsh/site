@@ -25,6 +25,12 @@ hr{
     margin: 25px auto;
 }
 
+.HEADER:hover{
+    transition-duration: 1s;
+    font-size: 420%;
+}
+
+
 h1{
     color: #66bfbf;
     font-family: 'Sacramento', cursive;
@@ -97,6 +103,14 @@ p{
     width: 60px;
 }
 
+.logo:hover{
+    transition-duration: 1s;
+    position: fixed;
+    left: 0px;
+    width: 80px;
+}
+
+
 .camera{
     width: 100%;
     height: 40em;
@@ -125,9 +139,12 @@ p{
 .angela{
     border-radius: 100%;
     background-color: white;
-    width: 15%;
+    width: 14%;
+}
 
-
+.angela:hover{
+    transition-duration: 0.5s;
+    width: 13%;
 }
 
 .pic1{
@@ -138,14 +155,26 @@ p{
     padding-top: 10px;
 
 }
+
+.pic1:hover{
+    transition-duration: 0.5s;
+    width: 21%;
+}
+
 .pic2{
     width: 25%;
     float: right;
     border-radius: 100%;
     margin-left: 20px;
-    
-
+  
 }
+
+.pic2:hover{
+    transition-duration: 0.5s;
+    width: 21%;
+}
+
+
 .pic3{
     width: 28%;
     float: left;
@@ -153,6 +182,12 @@ p{
     margin-right: 20px;
 
 }
+
+.pic3:hover{
+    transition-duration: 0.5s;
+    width: 21%;
+}
+
 
 .skill-row{
     text-align: left;
