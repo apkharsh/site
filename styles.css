@@ -60,6 +60,12 @@ p{
     font-size: 1.2em;
 }
 
+.home-button{
+    position: fixed;
+    right: 135px;
+    top: 12.5px;
+}
+
 .top-container-1{
     padding-top: 0px;
     position:fixed;
@@ -86,23 +92,9 @@ p{
 }
 
 .logo{
-    position: absolute;
+    position: fixed;
     left: 0px;
-    width: 3.8%;
-    top: 0px;
-
-}
-
-.top-cloud{
-    position: relative;
-    left: 250px;
-    padding-top: 20px;
-    margin-top: 40px;
-}
-
-.bottom-cloud{
-    position: absolute;
-    left: 22.5%;
+    width: 60px;
 }
 
 .camera{
@@ -214,11 +206,6 @@ p{
     padding-bottom: 20px;
 }
 
-.home-footer{
-    position: absolute;
-    top: 10.4px;
-    right: 9.5%;
-}
 
 .btn {
     background: #11cdd4;
