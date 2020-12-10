@@ -29,6 +29,7 @@ h1{
     color: #66bfbf;
     font-family: 'Sacramento', cursive;
     font-size: 400%;
+    padding-top: 40px;
 }
 
 h2{
@@ -59,8 +60,20 @@ p{
     font-size: 1.2em;
 }
 
+.top-container-1{
+    padding-top: 0px;
+    position:fixed;
+    background:white;
+    width:100%;
+    height: 60px;
+    margin-top: 0px;
+    top: 0px;
+    
+}
+
+
 .top-container{
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .middle-container{
@@ -72,9 +85,19 @@ p{
     font-size: 120%;
 }
 
+.logo{
+    position: absolute;
+    left: 0px;
+    width: 3.8%;
+    top: 0px;
+
+}
+
 .top-cloud{
     position: relative;
     left: 250px;
+    padding-top: 20px;
+    margin-top: 40px;
 }
 
 .bottom-cloud{
@@ -191,6 +214,12 @@ p{
     padding-bottom: 20px;
 }
 
+.home-footer{
+    position: absolute;
+    top: 10.4px;
+    right: 9.5%;
+}
+
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #2980b9);
@@ -218,3 +247,26 @@ p{
     text-decoration: none;
   }
   
+
+  
+  .btn-top {
+      position: absolute;
+      top: 1%;
+      right: 1%;
+      margin-top: 7.4px;
+      margin-right: 5px;
+    -webkit-border-radius: 2.5;
+    -moz-border-radius: 2.5;
+    border-radius: 2.5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #3498db;
+    padding: 12px 12.5px 12px 12.5px;
+    text-decoration: none;
+  }
+  
+  .btn-top:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
