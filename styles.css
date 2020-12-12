@@ -14,22 +14,23 @@ a{
 }
 
 a:hover{
-    color: white;
+    color: rgb(228, 220, 220);
     
 }
 
-hr{
-    border: dotted #bae4e4 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 25px auto;
-}
 
 .HEADER:hover{
     transition-duration: 1s;
     font-size: 420%;
 }
 
+hr{
+    border: dotted #bae4e4 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 20px auto 50px auto;
+    
+}
 
 h1{
     color: #66bfbf;
@@ -64,12 +65,13 @@ p{
     margin: auto;
     line-height: 2;
     font-size: 1.2em;
+    margin-bottom: 60px;
 }
 
 .home-button{
     position: fixed;
     right: 135px;
-    top: 12.5px;
+    top: 10px
 }
 
 .top-container-1{
@@ -102,6 +104,7 @@ p{
     left: 0px;
     width: 60px;
 }
+
 
 .logo:hover{
     transition-duration: 1s;
@@ -144,54 +147,75 @@ p{
 
 .angela:hover{
     transition-duration: 0.5s;
-    width: 13%;
+    width: 12.5%;
 }
 
+
 .pic1{
-    width: 25%;
+    width: 22.5%;
     border-radius: 100%;
     float: left;
     margin-right: 20px;
-    padding-top: 10px;
+    border: solid white 6px;
+    
 
 }
-
-.pic1:hover{
+.pic1:hover{box-shadow: 0px 0px 6px 3px #c40031b7;
+    color: #9b66b9;
     transition-duration: 0.5s;
-    width: 21%;
+    width: 22.7%;
 }
+/**.pic1:hover{
+    transition-duration: 0.5s;
+    width: 21%;**/
 
 .pic2{
-    width: 25%;
+    width: 22.5%;
     float: right;
     border-radius: 100%;
     margin-left: 20px;
-  
-}
+    position: relative;
+    right: 25px;
+    border: solid white 6px;
 
-.pic2:hover{
+}
+.pic2:hover{box-shadow: 0px 0px 6px 3px hsl(49, 87%, 50%);
+    color: #9b66b9;
     transition-duration: 0.5s;
-    width: 21%;
+    transform: rotate(20deg);
 }
 
+
+/**.pic2:hover{
+    transition-duration: 0.5s;
+    width: 21%; **/
 
 .pic3{
-    width: 28%;
+    width: 22%;
     float: left;
     border-radius: 100%;
     margin-right: 20px;
+    border: solid white 6px;
 
 }
 
-.pic3:hover{
+.pic3:hover{box-shadow: 0px 0px 6px 3px #94431e;
+    color: #9b66b9;
     transition-duration: 0.5s;
-    width: 21%;
+    transform: rotate(20deg);
+    
+    
+    
+
+/**.pic3:hover{
+    transition-duration: 0.5s;
+    width: 21%; **/
 }
 
 
 .skill-row{
     text-align: left;
-    width: 50%;
+    width: 53%;
     margin: 50px auto;
     line-height: 2;
     padding-top: 30px;
@@ -199,6 +223,24 @@ p{
     
 }
 
+
+i{box-shadow: 0px 0px 6px 3px;
+    color: #101111;
+    border-radius: 100%;
+    padding: 10px;
+    
+
+
+}
+
+i:hover{box-shadow: 0px 0px 6px 3px #e7dff3;
+    color: #ffdada;
+    border-radius: 100%;
+    padding: 10px;
+
+
+
+}
 
 .dev-h3{
     margin-bottom: 0px;
@@ -217,27 +259,27 @@ p{
     
     height: 0px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .bottom-container{
     background-color: #66bfbf;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    margin-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    margin-top: 30px;
     
 }
 
 .end{
     color: rgb(25, 94, 87);
     padding-bottom: 0px;
-    padding-top: 10px;
-    margin-bottom: 0px;
+    padding-top: 20px;
+    margin-bottom: -10px;
 
 }
 
 .FOOTER{
-    padding-top: 20px;
+    padding-top: 18px;
     padding-bottom: 20px;
 }
 
@@ -257,6 +299,7 @@ p{
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    margin-bottom: 30px;
   }
   
   .btn:hover {
@@ -267,6 +310,8 @@ p{
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+    
+
   }
   
 
@@ -292,3 +337,5 @@ p{
     background: #3cb0fd;
     text-decoration: none;
   }
+}
+}
