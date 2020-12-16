@@ -20,7 +20,7 @@ a:hover{
 
 
 .HEADER:hover{
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     font-size: 420%;
 }
 
